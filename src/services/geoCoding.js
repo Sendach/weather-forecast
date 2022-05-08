@@ -1,6 +1,6 @@
 import config from '../utils/config'
 import axios from 'axios'
-const baseUrl = `http://api.openweathermap.org`
+const baseUrl = `https://api.openweathermap.org`
 
 
 const getLatLon = async (city, limit) => {

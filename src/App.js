@@ -34,9 +34,17 @@ const App = () => {
 
       setCountries(ArrOfCountries)
       setSelectedCountry(ArrOfCountries[0])      
+
+      // init value
+      const geoLocation = await getGeoOfCity(countries.data[0].capital)
+      const cityWeather = await getWeather(geoLocation[0].lat, geoLocation[0].lon)
+      setDailyWeather(cityWeather.daily)
+    
     }
+
     getCountries()
       .catch(console.error())
+
   }, [])
 
   const handleCountryChange = async (event) => {
