@@ -1,0 +1,52 @@
+[
+  {
+    "time": "12 AM", "temp": "14°", "wind": 6, "chanceOfRain": 1, "clouds": 9, "humidity": 65 },
+  {
+    "time": "1 AM",
+    "temp": "14°",
+    "wind": 6,
+    "chanceOfRain": 1,
+    "clouds": 9,
+    "humidity": 65
+  },
+  {
+    "time": "2 AM",
+    "temp": "14°",
+    "wind": 6,
+    "chanceOfRain": 1,
+    "clouds": 9,
+    "humidity": 65
+  },
+  {
+    "time": "3 AM",
+    "temp": "14°",
+    "wind": 6,
+    "chanceOfRain": 1,
+    "clouds": 9,
+    "humidity": 65
+  },
+  {
+    "time": "4 AM",
+    "temp": "14°",
+    "wind": 6,
+    "chanceOfRain": 1,
+    "clouds": 9,
+    "humidity": 65
+  },
+  {
+    "time": "5 AM",
+    "temp": "14°",
+    "wind": 6,
+    "chanceOfRain": 1,
+    "clouds": 9,
+    "humidity": 65
+  },
+  {
+    "time": "6 AM",
+    "temp": "14°",
+    "wind": 6,
+    "chanceOfRain": 1,
+    "clouds": 9,
+    "humidity": 65
+  }
+]

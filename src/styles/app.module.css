@@ -1,0 +1,10 @@
+.selectedCountry {
+  color: #80878c;
+  text-align: center;
+}
+
+.weatherCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

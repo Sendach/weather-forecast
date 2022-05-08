@@ -1,0 +1,60 @@
+.card {
+  border: 2px solid #80878c;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 300px;
+  align-items: center;
+  margin: 0 30px;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.day {
+  margin: 10px 0 0 0;
+  color: #073463;
+  text-transform: capitalize;
+  font-weight: 550;
+  font-size: 26px;
+}
+
+.date {
+  margin: 0 0 10px 0;
+  color: #697585;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.maxTemp {
+  margin: 5px 0 0 0;
+  color: #073463;
+  font-size: 36px;
+}
+
+.minTemp {
+  margin: 0 0 20px 0;
+  color: #697585;
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7f0f7;
+  width: 100%;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.wind {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.humidity {
+  display: flex;
+  margin-top: 10px;
+}
